@@ -1225,7 +1225,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libcutils",
                 "liblog",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.7",
                 "libutils",
                 "libc++",
                 "libc",
@@ -3403,7 +3403,7 @@ cc_prebuilt_library_shared {
                 "libjsoncpp",
                 "libVendorSemTelephonyProps",
                 "libVendorSemDataProps",
-                "libprotobuf-cpp-full",
+                "libprotobuf-cpp-full-21.7",
                 "libvkmanager_vendor",
                 "libengmode_client",
                 "libbase",
