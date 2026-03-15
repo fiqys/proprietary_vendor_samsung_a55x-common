@@ -350,6 +350,7 @@ PRODUCT_PACKAGES += \
     libwrappergps \
     nfc_nci_sec \
     sensors.sensorhub \
+    sensors.inputvirtual \
     libaudioeffectoffload \
     libmyspace \
     vendor.samsung.hardware.audio-V1-ndk \
