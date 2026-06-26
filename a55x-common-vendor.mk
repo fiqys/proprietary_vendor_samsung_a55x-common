@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a55x-common/proprietary/vendor/etc/init/init.vendor.onebinary.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.onebinary.rc \
     vendor/samsung/a55x-common/proprietary/vendor/etc/init/init.vendor.rilcommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilcommon.rc \
     vendor/samsung/a55x-common/proprietary/vendor/etc/init/sec-nfc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/sec-nfc-service.rc \
-    vendor/samsung/a55x-common/proprietary/vendor/etc/init/secaudiohalaidl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/secaudiohalaidl.rc \
     vendor/samsung/a55x-common/proprietary/vendor/etc/init/teegris.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/teegris.rc \
     vendor/samsung/a55x-common/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider-service_64.rc \
     vendor/samsung/a55x-common/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss-service.rc \
@@ -222,10 +221,7 @@ PRODUCT_PACKAGES += \
     libGLESv1_CM_samsung \
     libGLESv2_samsung \
     gnss_aidl_lib \
-    audio.primary.s5e8845 \
-    audio.sec_primary.default \
     gatekeeper.s5e8845 \
-    libsecaudiohal_aidl \
     sound_trigger.primary.s5e8845 \
     vulkan.samsung \
     libExtIRTA \
@@ -235,7 +231,6 @@ PRODUCT_PACKAGES += \
     libSamsungPostProcessConvertor \
     libVendorSemDataProps \
     libVendorSemTelephonyProps \
-    lib_SamsungRec_07010 \
     lib_SoundAlive_3DPosition_ver202 \
     lib_SoundAlive_AlbumArt_ver105 \
     lib_SoundAlive_SRC384_ver320 \
@@ -243,12 +238,7 @@ PRODUCT_PACKAGES += \
     lib_SoundBooster_ver2000 \
     lib_profiler \
     lib_soundaliveresampler \
-    libalsautils_sec \
     libarcsoft_dualcam_portraitlighting_preview \
-    libaudio-ril \
-    libaudioparamupdate \
-    libaudioproxy2 \
-    libaudioroute_samsung \
     libcsc \
     libdisplaycolor_default \
     libdualcam_refocus_video \
@@ -278,7 +268,6 @@ PRODUCT_PACKAGES += \
     libhwjsqz \
     libhwvault \
     libisosechw \
-    liblastaboxmsg \
     libmpbase \
     libprofileparamstorage \
     libqfp_sensortest \
@@ -293,10 +282,8 @@ PRODUCT_PACKAGES += \
     libsec_semRil \
     libsecaudiocoreutils \
     libsecaudioinfo \
-    libsecaudiolevel \
     libsecnativefeature \
     libsecril-client \
-    libsehbluetooth_audio_session_aidl \
     libsemnativecarrierfeature \
     libsemseg \
     libsensorlistener \
@@ -306,11 +293,9 @@ PRODUCT_PACKAGES += \
     libskeymint10device \
     libskeymint_cli \
     libspatializerparamstorage \
-    libspeakercalibration \
     libspictrl \
     libsynaFpSensorTestNwd \
     libteecl \
-    libtinyalsa_samsung \
     libuniapi \
     libuniplugin \
     libuuid_vendor \
@@ -324,8 +309,6 @@ PRODUCT_PACKAGES += \
     libmyspace \
     vendor.samsung.hardware.audio-V1-ndk \
     vendor.samsung.hardware.biometrics.fingerprint-V1-ndk \
-    vendor.samsung.hardware.bluetooth.audio-V2-ndk \
-    vendor.samsung.hardware.bluetooth.audio-impl \
     vendor.samsung.hardware.camera.device-V1-ndk \
     vendor.samsung.hardware.camera.provider-V1-ndk \
     vendor.samsung.hardware.gnss-V3-ndk \
@@ -352,7 +335,6 @@ PRODUCT_PACKAGES += \
     android.hardware.boot-service.exynos.xml \
     iweaver_aidl_v2_manifest.xml \
     sec-nfc-service.xml \
-    secaudiohalaidl_manifest.xml \
     vendor.samsung.hardware.camera.provider-service.xml \
     vendor.samsung.hardware.radio.exclude.slsi.xml \
     vendor.samsung.hardware.radio_manifest_2_34.xml \
@@ -367,7 +349,6 @@ PRODUCT_PACKAGES += \
     gpsd_K44 \
     rild \
     sec.android.hardware.nfc-service \
-    secaudiohalaidl \
     vendor.samsung.hardware.camera.provider-service_64 \
     vendor.samsung.hardware.gnss-service \
     vendor.samsung.hardware.security.hermes-service \
